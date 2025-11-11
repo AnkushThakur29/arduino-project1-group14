@@ -1,14 +1,16 @@
 // C++ code
 //
+
+int pinNumber = 13;
 void setup()
 {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(pinNumber, OUTPUT);
 }
 
 void loop()
 {
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(pinNumber, HIGH);
   delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(pinNumber, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
